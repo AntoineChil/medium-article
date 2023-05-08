@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@400;700&display=swap');
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  margin: 0;
+  color: #494949;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/vZlTg_McCDo/1600x900");
+  background-size: cover;
+  background-color: grey;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1, h2 {
+  font-family: "Monserrat", sans-serif;
+  text-align: start;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 27px;
+  color: #A0A0A0;
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  background: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-style: italic;
+  font-size: 25px;
+}
+
+a:hover {
+  background: linear-gradient(to bottom, rgb(83, 245, 143), rgb(83, 245, 143));
+}
